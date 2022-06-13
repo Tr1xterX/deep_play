@@ -1,0 +1,69 @@
+INSERT INTO departments VALUES 
+('d01','Marketing'),
+('d02','Finance'),
+('d03','Human Resources'),
+('d04','Production'),
+('d05','Development'),
+('d06','Management');
+
+INSERT INTO post VALUES
+(1,'employees'),
+(2,'controler'),
+(3,'depart_manager'),
+(4,'director');
+
+INSERT INTO employees VALUES 
+('Vsiliy','Petichkin','M','6/26/1995','89121736293',1),
+('Pettry','Vasichkin','M','10/3/1994','89123736264',1),
+('Mihail','Oblomovin','M','12/14/1996','89136736274',1),
+('Anna', 'Ranevskaya','F','3/23/1984','89123136272',1),
+('Nikilay','Cherbin', 'M','1/21/1997','89123436257',1),
+('Tatiana','Okonovna','F','10/11/2002','89125736234',1),
+('Uliy','Cesarevich', 'M','4/17/1993','89123336224',1),
+('Abram','Linkolnov', 'M','6/4/1992','89123735214',1),
+('Contipiy','Evstahov','M','3/26/1969','89153236264',1),
+('Yaroslav','Kupich', 'M','2/3/1975','89123453265',1),
+('Pony','Pilatovich','M','11/26/1985','89125436232',3),
+('Akena','Philipovna','F','6/7/1991','89123754223',3),
+('Sergey','Varpholomy','M','6/6/1999','8943733253',3),
+('Kirill','Shekov',   'M','8/21/2001','89003736215',3),
+('VDeeplay','Hotelov','M','7/2/1993','89133736264',3),
+('Arkadiy','Bazarov','M','7/2/1996','89133736264',3),
+('Billy','Gaytzov',  'M','7/2/1997','891337362641',2),
+('Alexander','Vachov','M','7/2/1995','89133736233',2),
+('Alexandra','Vachova','F','7/2/1995','89133736222',2),
+('Aklopya','Nemovna','F','7/2/1992','89233736264',2),
+('Vladimir','Putin', 'M','7/2/1961','89133736265',2),
+('Leonardo','Davinci','M','7/2/1783','89433736777',4);
+
+INSERT INTO P_emp VALUES 
+(10001,'d05'),
+(10002,'d05'),
+(10003,'d04'),
+(10004,'d04'),
+(10005,'d03'),
+(10006,'d05'),
+(10007,'d02'),
+(10008,'d05'),
+(10009,'d06'),
+(10010,'d04');
+
+INSERT INTO P_manager VALUES 
+(10011,'d01'),
+(10012,'d02'),
+(10013,'d03'),
+(10014,'d04'),
+(10015,'d05'),
+(10016,'d06');
+
+INSERT INTO P_ctrl VALUES 
+(10017,'d01','quality'),
+(10018,'d02','legitimacy'),
+(10019,'d03','efficiency'),
+(10020,'d04','compliance'),
+(10021,'d05','empl skills');
+
+INSERT INTO P_director VALUES 
+(10021);
+
+
